@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+</manifest>
+pete@microg-build2:/home/docker-build/l4m_build_scripts$ cat unofficial_manifests/21.0/l4m-sony-yoshino-21.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+      <!-- kernel -->
+      <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-21" />
+
+      <!-- device trees -->
+      <project name="whatawurst/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_device_sony_maple" path="device/sony/maple" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_device_sony_maple_dsds" path="device/sony/maple_dsds" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_device_sony_poplar" path="device/sony/poplar" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-21" />
+
+      <!-- binary blobs  -->
+      <project name="whatawurst/android_vendor_sony_maple" path="vendor/sony/maple" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_vendor_sony_maple_dsds" path="vendor/sony/maple_dsds" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_vendor_sony_poplar" path="vendor/sony/poplar" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-21" />
+      <project name="whatawurst/android_vendor_sony_yoshino-common" path="vendor/sony/yoshino-common" remote="github" revision="lineage-21" />
+
+</manifest>
